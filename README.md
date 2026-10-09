@@ -4,7 +4,7 @@ A customization that turns AI into a **learning companion** instead of a code ge
 
 **Core idea:** You try first. AI helps only after you commit to an answer.
 
-> **Looking for a different AI agent?** This repo has separate branches for each supported tool. Switch to the branch matching your agent — `copilot`, `cursor`, `claude-code`, `opencode`, or `antigravity` — to get the right configuration and code.
+> ~~**Looking for a different AI agent?** This repo has separate branches for each supported tool. Switch to the branch matching your agent — `copilot`, `cursor`, `claude-code`, `opencode`, or `antigravity` — to get the right configuration and code.~~
 
 ---
 
@@ -201,9 +201,10 @@ learning/                      # Optional learning logs
 
 If you're not thinking, you're not learning.
 
-Note: Adapted from Manware's AI Learning Toolkit
-Note 2 (From my own mistakes):
--Make sure "Local" is selected" instead of "Copilot"
--(user-invocable: false, disable-model-invocation: false) means it's a skill
--(user-invocable: true, disable-model-invocation: true) means it's a prompt
+## Note: Adapted from Manware's AI Learning Toolkit
+
+## Note 2 (From my own mistakes):
+- Make sure **"Local"** is selected instead of **"Copilot"**
+- (user-invocable: false, disable-model-invocation: false) means it's a skill
+- (user-invocable: true, disable-model-invocation: true) means it's a prompt
 -Both are listed under skills
